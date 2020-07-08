@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTrackActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/artistName"
+        android:textSize="30dp"/>
+    <EditText
+        android:layout_below="@id/artistName"
+        android:id="@+id/artisttrackname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="add artist track  "/>
+   <SeekBar
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/seekbarRating"
+       android:max="5"
+       android:layout_below="@+id/artisttrackname"/>
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firebasetrackdata"
+        android:text="Add data to database"/>
+
+    <ListView
+        android:id="@+id/listeviewTracks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firebasetrackdata" />
+
+
+</RelativeLayout>

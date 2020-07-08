@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1071446313937",
+    "firebase_url": "https://tryrealtimedatabase-ec137.firebaseio.com",
+    "project_id": "tryrealtimedatabase-ec137",
+    "storage_bucket": "tryrealtimedatabase-ec137.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071446313937:android:ad5315ef05472974fbaef0",
+        "android_client_info": {
+          "package_name": "com.example.tryrealtimedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071446313937-d2d257kfd07ikm53ohlkm14e9p39vmof.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tryrealtimedatabase",
+            "certificate_hash": "66ea5c27694ba9387669486b860f6b2225368cef"
+          }
+        },
+        {
+          "client_id": "1071446313937-7i0nlgq2ums2781d2h6qddnd8lcu13kl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLwY7RPT0kmMcTmgF4AiDb1PqJhhSrkO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071446313937-7i0nlgq2ums2781d2h6qddnd8lcu13kl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
